@@ -1,0 +1,50 @@
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin: 2% 0;
+   /* min-height: 0px;*/
+    /*background-color: rgba(85, 79, 79, 0.925);*/
+    align-items: center;
+}
+
+form{
+      text-align: center;
+      margin: 0%;
+}
+
+.top{
+    text-align: center;
+    /*position: relative;*/
+
+    }
+
+    .header, .footer{
+        width: 100%;
+        /*position: fixed; */       
+        background: rgb(78, 77, 77);
+        padding: 20px 0;
+       /* color: #fff;*/
+       margin:0;
+    }
+    .header{
+        position: absolute;
+        top: 0;
+       /* height:1px;*/
+    }
+    .footer{
+        bottom: 0;
+        
+        /*height: 1px;*/
+        position: absolute;
+    }
+.body{
+    margin: 0%;
+}
+
+img{
+      margin: 30px 0;
+}
